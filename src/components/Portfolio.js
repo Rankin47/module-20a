@@ -1,4 +1,4 @@
-//Reference the Project.js to pull each JS file.
+
 
 import React from "react";
 import Project from "./Project";
@@ -11,19 +11,6 @@ const projects = [
     description: "Battle Robots",
     repo: "https://github.com/Rankin47/robot-gladiators",
   },
-  {
-    id: 1,
-    title: "TechTopics",
-    languages: "html, handlebars, js",
-    packages:
-      "bcrypt, connect-session-sequelize, dotenv, Express.js, express-handlebars, express-session, heroku, mysql2, sequelize",
-    image: "/img/techtopics.png",
-    description:
-      "Allows you to edit and post blogs. You can also leave comments on your own blog or the blogs of others.",
-    repo: "https://github.com/EmilyNecciai/tech-topics",
-    live: "https://floating-thicket-72381.herokuapp.com/",
-  },
-
   {
     id: 2,
     title: "Note Taker App",
